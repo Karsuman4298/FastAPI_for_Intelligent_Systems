@@ -1,0 +1,54 @@
+{
+  "patients": [
+    {
+      "patient_id": "P001",
+      "name": "Rahul Sharma",
+      "age": 45,
+      "gender": "Male",
+      "medical_complications": ["Hypertension", "Type 2 Diabetes"],
+      "medications": ["Metformin", "Amlodipine"],
+      "allergies": ["Penicillin"],
+      "last_visit": "2026-03-12"
+    },
+    {
+      "patient_id": "P002",
+      "name": "Ananya Das",
+      "age": 32,
+      "gender": "Female",
+      "medical_complications": ["Asthma"],
+      "medications": ["Salbutamol Inhaler"],
+      "allergies": [],
+      "last_visit": "2026-02-28"
+    },
+    {
+      "patient_id": "P003",
+      "name": "Vikram Patel",
+      "age": 60,
+      "gender": "Male",
+      "medical_complications": ["Coronary Artery Disease", "High Cholesterol"],
+      "medications": ["Atorvastatin", "Aspirin"],
+      "allergies": ["Shellfish"],
+      "last_visit": "2026-01-15"
+    },
+    {
+      "patient_id": "P004",
+      "name": "Priya Singh",
+      "age": 27,
+      "gender": "Female",
+      "medical_complications": ["Migraine"],
+      "medications": ["Sumatriptan"],
+      "allergies": [],
+      "last_visit": "2026-03-05"
+    },
+    {
+      "patient_id": "P005",
+      "name": "Arjun Gupta",
+      "age": 50,
+      "gender": "Male",
+      "medical_complications": ["Chronic Kidney Disease"],
+      "medications": ["Lisinopril"],
+      "allergies": ["Latex"],
+      "last_visit": "2026-02-10"
+    }
+  ]
+}

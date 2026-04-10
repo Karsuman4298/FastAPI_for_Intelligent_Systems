@@ -1,15 +1,25 @@
 from fastapi import FastAPI
+import json
 
 app = FastAPI()
 
 @app.get("/")
 def hello():
-    return {"message": "Hii"}
+    return {"message": "Patiant management  system API"}
 
 @app.get("/about")
 def about():
-    return {"message": "This is the About page"}
+    return {"message": "functional API to manage patient records"}
 
-@app.get("/kill")
-def kill():
-    return {"message": "This is the kill page"}    
+
+def load_data():
+    with open("patient.json", "r") as f:
+       data=json.load(f)
+
+    return data   
+
+
+@app.get("/view")
+def view():
+    data=load_data()
+    return data    
